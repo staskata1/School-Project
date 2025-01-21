@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My First Website</h1>
+    </header>
+
+    <section>
+        <img src="https://old.spge-bg.com/_data/pages/home/pics/spge.jpg" alt="SPGE John Atanasoff">
+        <p>SPGE John Atanasoff is a leading educational institution in Bulgaria, known for its emphasis on science, technology, and innovation. Established to honor the legacy of John Atanasoff, the co-inventor of the first electronic digital computer, the school has a rich history of academic excellence and innovation.</p>
+
+        <h2>Admissions Over the Past 5 Years</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Number of Students Accepted</th>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>160</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>190</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
